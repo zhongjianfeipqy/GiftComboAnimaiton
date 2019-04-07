@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25375C4B1F0BD28900FF5B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25375C4A1F0BD28900FF5B20 /* main.m */; };
+		25375C4E1F0BD28900FF5B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25375C4D1F0BD28900FF5B20 /* AppDelegate.m */; };
+		25375C511F0BD28900FF5B20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25375C501F0BD28900FF5B20 /* ViewController.m */; };
+		25375C541F0BD28900FF5B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25375C521F0BD28900FF5B20 /* Main.storyboard */; };
+		25375C561F0BD28900FF5B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25375C551F0BD28900FF5B20 /* Assets.xcassets */; };
+		25375C591F0BD28900FF5B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25375C571F0BD28900FF5B20 /* LaunchScreen.storyboard */; };
+		25375C641F0BD28900FF5B20 /* textGiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25375C631F0BD28900FF5B20 /* textGiftTests.m */; };
+		25375C6F1F0BD28900FF5B20 /* textGiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25375C6E1F0BD28900FF5B20 /* textGiftUITests.m */; };
+		25A3C7E81F0E2C0500E64793 /* TDGiftAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7DB1F0E2C0500E64793 /* TDGiftAnimationCell.m */; };
+		25A3C7E91F0E2C0500E64793 /* TDGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7DD1F0E2C0500E64793 /* TDGiftLabel.m */; };
+		25A3C7EA1F0E2C0500E64793 /* TDGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7E01F0E2C0500E64793 /* TDGiftCell.m */; };
+		25A3C7EB1F0E2C0500E64793 /* TDGiftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A3C7E11F0E2C0500E64793 /* TDGiftCell.xib */; };
+		25A3C7EC1F0E2C0500E64793 /* TDGiftLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7E31F0E2C0500E64793 /* TDGiftLayout.m */; };
+		25A3C7ED1F0E2C0500E64793 /* TDGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7E51F0E2C0500E64793 /* TDGiftView.m */; };
+		25A3C7EE1F0E2C0500E64793 /* TCCustomMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C7E71F0E2C0500E64793 /* TCCustomMessageModel.m */; };
+		25A3C8081F0E2F4F00E64793 /* GiftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3C8071F0E2F4F00E64793 /* GiftTableView.m */; };
+		E18AFF921547A2CE70AEA107 /* libPods-defaults-textGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F941609BB96E8479BC06B9 /* libPods-defaults-textGift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25375C601F0BD28900FF5B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25375C3E1F0BD28900FF5B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25375C451F0BD28900FF5B20;
+			remoteInfo = textGift;
+		};
+		25375C6B1F0BD28900FF5B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25375C3E1F0BD28900FF5B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25375C451F0BD28900FF5B20;
+			remoteInfo = textGift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25375C461F0BD28900FF5B20 /* textGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25375C4A1F0BD28900FF5B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25375C4C1F0BD28900FF5B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25375C4D1F0BD28900FF5B20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25375C4F1F0BD28900FF5B20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25375C501F0BD28900FF5B20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		25375C531F0BD28900FF5B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25375C551F0BD28900FF5B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25375C581F0BD28900FF5B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25375C5A1F0BD28900FF5B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25375C5F1F0BD28900FF5B20 /* textGiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textGiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25375C631F0BD28900FF5B20 /* textGiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textGiftTests.m; sourceTree = "<group>"; };
+		25375C651F0BD28900FF5B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25375C6A1F0BD28900FF5B20 /* textGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25375C6E1F0BD28900FF5B20 /* textGiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textGiftUITests.m; sourceTree = "<group>"; };
+		25375C701F0BD28900FF5B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25375C8A1F0C6F4C00FF5B20 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		25A3C7DA1F0E2C0500E64793 /* TDGiftAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGiftAnimationCell.h; sourceTree = "<group>"; };
+		25A3C7DB1F0E2C0500E64793 /* TDGiftAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGiftAnimationCell.m; sourceTree = "<group>"; };
+		25A3C7DC1F0E2C0500E64793 /* TDGiftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGiftLabel.h; sourceTree = "<group>"; };
+		25A3C7DD1F0E2C0500E64793 /* TDGiftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGiftLabel.m; sourceTree = "<group>"; };
+		25A3C7DF1F0E2C0500E64793 /* TDGiftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGiftCell.h; sourceTree = "<group>"; };
+		25A3C7E01F0E2C0500E64793 /* TDGiftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGiftCell.m; sourceTree = "<group>"; };
+		25A3C7E11F0E2C0500E64793 /* TDGiftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDGiftCell.xib; sourceTree = "<group>"; };
+		25A3C7E21F0E2C0500E64793 /* TDGiftLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGiftLayout.h; sourceTree = "<group>"; };
+		25A3C7E31F0E2C0500E64793 /* TDGiftLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGiftLayout.m; sourceTree = "<group>"; };
+		25A3C7E41F0E2C0500E64793 /* TDGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGiftView.h; sourceTree = "<group>"; };
+		25A3C7E51F0E2C0500E64793 /* TDGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGiftView.m; sourceTree = "<group>"; };
+		25A3C7E61F0E2C0500E64793 /* TCCustomMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCustomMessageModel.h; sourceTree = "<group>"; };
+		25A3C7E71F0E2C0500E64793 /* TCCustomMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCustomMessageModel.m; sourceTree = "<group>"; };
+		25A3C8061F0E2F4F00E64793 /* GiftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftTableView.h; sourceTree = "<group>"; };
+		25A3C8071F0E2F4F00E64793 /* GiftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftTableView.m; sourceTree = "<group>"; wrapsLines = 0; };
+		6ED24EF1364F04CD7956B5AB /* Pods-defaults-textGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-textGift.release.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-textGift/Pods-defaults-textGift.release.xcconfig"; sourceTree = "<group>"; };
+		774475ADEDFAB2EDC3DDD170 /* Pods-defaults-textGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-textGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-textGift/Pods-defaults-textGift.debug.xcconfig"; sourceTree = "<group>"; };
+		A6F941609BB96E8479BC06B9 /* libPods-defaults-textGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-textGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25375C431F0BD28900FF5B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18AFF921547A2CE70AEA107 /* libPods-defaults-textGift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C5C1F0BD28900FF5B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C671F0BD28900FF5B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25375C3D1F0BD28900FF5B20 = {
+			isa = PBXGroup;
+			children = (
+				25375C481F0BD28900FF5B20 /* textGift */,
+				25375C621F0BD28900FF5B20 /* textGiftTests */,
+				25375C6D1F0BD28900FF5B20 /* textGiftUITests */,
+				25375C471F0BD28900FF5B20 /* Products */,
+				3FD2C44FA3448AB4B6B1F97B /* Pods */,
+				2771E057AE2BBAC1B4C5648F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25375C471F0BD28900FF5B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25375C461F0BD28900FF5B20 /* textGift.app */,
+				25375C5F1F0BD28900FF5B20 /* textGiftTests.xctest */,
+				25375C6A1F0BD28900FF5B20 /* textGiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25375C481F0BD28900FF5B20 /* textGift */ = {
+			isa = PBXGroup;
+			children = (
+				25375C4C1F0BD28900FF5B20 /* AppDelegate.h */,
+				25375C4D1F0BD28900FF5B20 /* AppDelegate.m */,
+				25375C4F1F0BD28900FF5B20 /* ViewController.h */,
+				25375C501F0BD28900FF5B20 /* ViewController.m */,
+				25A3C7D81F0E2C0500E64793 /* giftTool */,
+				25375C8A1F0C6F4C00FF5B20 /* PrefixHeader.pch */,
+				25375C521F0BD28900FF5B20 /* Main.storyboard */,
+				25375C551F0BD28900FF5B20 /* Assets.xcassets */,
+				25375C571F0BD28900FF5B20 /* LaunchScreen.storyboard */,
+				25375C5A1F0BD28900FF5B20 /* Info.plist */,
+				25375C491F0BD28900FF5B20 /* Supporting Files */,
+			);
+			path = textGift;
+			sourceTree = "<group>";
+		};
+		25375C491F0BD28900FF5B20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25375C4A1F0BD28900FF5B20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25375C621F0BD28900FF5B20 /* textGiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				25375C631F0BD28900FF5B20 /* textGiftTests.m */,
+				25375C651F0BD28900FF5B20 /* Info.plist */,
+			);
+			path = textGiftTests;
+			sourceTree = "<group>";
+		};
+		25375C6D1F0BD28900FF5B20 /* textGiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25375C6E1F0BD28900FF5B20 /* textGiftUITests.m */,
+				25375C701F0BD28900FF5B20 /* Info.plist */,
+			);
+			path = textGiftUITests;
+			sourceTree = "<group>";
+		};
+		25A3C7D81F0E2C0500E64793 /* giftTool */ = {
+			isa = PBXGroup;
+			children = (
+				25A3C7D91F0E2C0500E64793 /* sendGiftTool */,
+				25A3C7DE1F0E2C0500E64793 /* showGiftTool */,
+				25A3C7E61F0E2C0500E64793 /* TCCustomMessageModel.h */,
+				25A3C7E71F0E2C0500E64793 /* TCCustomMessageModel.m */,
+				25A3C8061F0E2F4F00E64793 /* GiftTableView.h */,
+				25A3C8071F0E2F4F00E64793 /* GiftTableView.m */,
+			);
+			path = giftTool;
+			sourceTree = "<group>";
+		};
+		25A3C7D91F0E2C0500E64793 /* sendGiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				25A3C7DA1F0E2C0500E64793 /* TDGiftAnimationCell.h */,
+				25A3C7DB1F0E2C0500E64793 /* TDGiftAnimationCell.m */,
+				25A3C7DC1F0E2C0500E64793 /* TDGiftLabel.h */,
+				25A3C7DD1F0E2C0500E64793 /* TDGiftLabel.m */,
+			);
+			path = sendGiftTool;
+			sourceTree = "<group>";
+		};
+		25A3C7DE1F0E2C0500E64793 /* showGiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				25A3C7DF1F0E2C0500E64793 /* TDGiftCell.h */,
+				25A3C7E01F0E2C0500E64793 /* TDGiftCell.m */,
+				25A3C7E11F0E2C0500E64793 /* TDGiftCell.xib */,
+				25A3C7E21F0E2C0500E64793 /* TDGiftLayout.h */,
+				25A3C7E31F0E2C0500E64793 /* TDGiftLayout.m */,
+				25A3C7E41F0E2C0500E64793 /* TDGiftView.h */,
+				25A3C7E51F0E2C0500E64793 /* TDGiftView.m */,
+			);
+			path = showGiftTool;
+			sourceTree = "<group>";
+		};
+		2771E057AE2BBAC1B4C5648F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F941609BB96E8479BC06B9 /* libPods-defaults-textGift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FD2C44FA3448AB4B6B1F97B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				774475ADEDFAB2EDC3DDD170 /* Pods-defaults-textGift.debug.xcconfig */,
+				6ED24EF1364F04CD7956B5AB /* Pods-defaults-textGift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25375C451F0BD28900FF5B20 /* textGift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25375C731F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGift" */;
+			buildPhases = (
+				124A2107A31C38DA0ADE20ED /* [CP] Check Pods Manifest.lock */,
+				25375C421F0BD28900FF5B20 /* Sources */,
+				25375C431F0BD28900FF5B20 /* Frameworks */,
+				25375C441F0BD28900FF5B20 /* Resources */,
+				8C4A3DDEA1C568F6F04DFB66 /* [CP] Embed Pods Frameworks */,
+				1225FEC200CCF2ABB86F9DB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textGift;
+			productName = textGift;
+			productReference = 25375C461F0BD28900FF5B20 /* textGift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25375C5E1F0BD28900FF5B20 /* textGiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25375C761F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGiftTests" */;
+			buildPhases = (
+				25375C5B1F0BD28900FF5B20 /* Sources */,
+				25375C5C1F0BD28900FF5B20 /* Frameworks */,
+				25375C5D1F0BD28900FF5B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25375C611F0BD28900FF5B20 /* PBXTargetDependency */,
+			);
+			name = textGiftTests;
+			productName = textGiftTests;
+			productReference = 25375C5F1F0BD28900FF5B20 /* textGiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25375C691F0BD28900FF5B20 /* textGiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25375C791F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGiftUITests" */;
+			buildPhases = (
+				25375C661F0BD28900FF5B20 /* Sources */,
+				25375C671F0BD28900FF5B20 /* Frameworks */,
+				25375C681F0BD28900FF5B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25375C6C1F0BD28900FF5B20 /* PBXTargetDependency */,
+			);
+			name = textGiftUITests;
+			productName = textGiftUITests;
+			productReference = 25375C6A1F0BD28900FF5B20 /* textGiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25375C3E1F0BD28900FF5B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tuandai;
+				TargetAttributes = {
+					25375C451F0BD28900FF5B20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					25375C5E1F0BD28900FF5B20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25375C451F0BD28900FF5B20;
+					};
+					25375C691F0BD28900FF5B20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25375C451F0BD28900FF5B20;
+					};
+				};
+			};
+			buildConfigurationList = 25375C411F0BD28900FF5B20 /* Build configuration list for PBXProject "textGift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25375C3D1F0BD28900FF5B20;
+			productRefGroup = 25375C471F0BD28900FF5B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25375C451F0BD28900FF5B20 /* textGift */,
+				25375C5E1F0BD28900FF5B20 /* textGiftTests */,
+				25375C691F0BD28900FF5B20 /* textGiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25375C441F0BD28900FF5B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25375C591F0BD28900FF5B20 /* LaunchScreen.storyboard in Resources */,
+				25A3C7EB1F0E2C0500E64793 /* TDGiftCell.xib in Resources */,
+				25375C561F0BD28900FF5B20 /* Assets.xcassets in Resources */,
+				25375C541F0BD28900FF5B20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C5D1F0BD28900FF5B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C681F0BD28900FF5B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1225FEC200CCF2ABB86F9DB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-textGift/Pods-defaults-textGift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		124A2107A31C38DA0ADE20ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4A3DDEA1C568F6F04DFB66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-textGift/Pods-defaults-textGift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25375C421F0BD28900FF5B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25375C511F0BD28900FF5B20 /* ViewController.m in Sources */,
+				25A3C7EC1F0E2C0500E64793 /* TDGiftLayout.m in Sources */,
+				25A3C7EE1F0E2C0500E64793 /* TCCustomMessageModel.m in Sources */,
+				25A3C7E91F0E2C0500E64793 /* TDGiftLabel.m in Sources */,
+				25375C4E1F0BD28900FF5B20 /* AppDelegate.m in Sources */,
+				25A3C7ED1F0E2C0500E64793 /* TDGiftView.m in Sources */,
+				25A3C7EA1F0E2C0500E64793 /* TDGiftCell.m in Sources */,
+				25A3C8081F0E2F4F00E64793 /* GiftTableView.m in Sources */,
+				25A3C7E81F0E2C0500E64793 /* TDGiftAnimationCell.m in Sources */,
+				25375C4B1F0BD28900FF5B20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C5B1F0BD28900FF5B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25375C641F0BD28900FF5B20 /* textGiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25375C661F0BD28900FF5B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25375C6F1F0BD28900FF5B20 /* textGiftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25375C611F0BD28900FF5B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25375C451F0BD28900FF5B20 /* textGift */;
+			targetProxy = 25375C601F0BD28900FF5B20 /* PBXContainerItemProxy */;
+		};
+		25375C6C1F0BD28900FF5B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25375C451F0BD28900FF5B20 /* textGift */;
+			targetProxy = 25375C6B1F0BD28900FF5B20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25375C521F0BD28900FF5B20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25375C531F0BD28900FF5B20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25375C571F0BD28900FF5B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25375C581F0BD28900FF5B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25375C711F0BD28900FF5B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25375C721F0BD28900FF5B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25375C741F0BD28900FF5B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774475ADEDFAB2EDC3DDD170 /* Pods-defaults-textGift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = textGift/PrefixHeader.pch;
+				INFOPLIST_FILE = textGift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25375C751F0BD28900FF5B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED24EF1364F04CD7956B5AB /* Pods-defaults-textGift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = textGift/PrefixHeader.pch;
+				INFOPLIST_FILE = textGift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25375C771F0BD28900FF5B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textGiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textGift.app/textGift";
+			};
+			name = Debug;
+		};
+		25375C781F0BD28900FF5B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textGiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textGift.app/textGift";
+			};
+			name = Release;
+		};
+		25375C7A1F0BD28900FF5B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textGiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textGift;
+			};
+			name = Debug;
+		};
+		25375C7B1F0BD28900FF5B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textGiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJF.textGiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textGift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25375C411F0BD28900FF5B20 /* Build configuration list for PBXProject "textGift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25375C711F0BD28900FF5B20 /* Debug */,
+				25375C721F0BD28900FF5B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25375C731F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25375C741F0BD28900FF5B20 /* Debug */,
+				25375C751F0BD28900FF5B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25375C761F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25375C771F0BD28900FF5B20 /* Debug */,
+				25375C781F0BD28900FF5B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25375C791F0BD28900FF5B20 /* Build configuration list for PBXNativeTarget "textGiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25375C7A1F0BD28900FF5B20 /* Debug */,
+				25375C7B1F0BD28900FF5B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25375C3E1F0BD28900FF5B20 /* Project object */;
+}

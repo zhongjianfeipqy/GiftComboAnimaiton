@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TDGiftCell">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="307"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="307" height="307"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zan_l1" translatesAutoresizingMaskIntoConstraints="NO" id="8v3-6J-Lwv">
+                        <rect key="frame" x="118.5" y="118.5" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="B1b-dD-M8l"/>
+                            <constraint firstAttribute="width" constant="70" id="Fxe-Wu-auB"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8v3-6J-Lwv" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="HjT-rG-d5U"/>
+                <constraint firstItem="8v3-6J-Lwv" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="lAY-IO-lqb"/>
+            </constraints>
+            <size key="customSize" width="307" height="307"/>
+            <connections>
+                <outlet property="giftImg" destination="8v3-6J-Lwv" id="OKA-pu-sdZ"/>
+            </connections>
+            <point key="canvasLocation" x="162.5" y="182.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="zan_l1" width="66" height="66"/>
+    </resources>
+</document>
