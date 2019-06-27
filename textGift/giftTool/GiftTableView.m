@@ -28,7 +28,7 @@
 @end
 
 // 显示cell的数量
-static NSInteger cellCount = 2;
+static NSInteger cellCount = 3;
 
 static double deleteCacheTimer = 0.1;
 
